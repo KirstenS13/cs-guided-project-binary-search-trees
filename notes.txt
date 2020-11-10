@@ -1,0 +1,22 @@
+leaf = node with no children
+
+root = the very first node, the base node
+
+recursion is used heavily with trees
+    - each subtree is it's own little tree
+
+    - to go through a tree, you recurse through subtrees
+
+There is a logarithmic/exponential relationship between height of tree and total number of nodes
+
+A binary search tree does not have to be perfect
+
+Rules for Binary Search Tree:
+    1. the left value is less than the node
+    2. the right value is greater than the node
+    3. all subtrees are valid binary search trees
+
+A single node IS a valid binary search tree
+
+BSTs are used a lot under the hood
+    -- you probably won't need to implement one
